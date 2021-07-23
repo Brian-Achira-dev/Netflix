@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: visible;
+}
+
+.logo img{
+    width: 9rem;
+}
+
+header{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/9dd90ee7-b861-4186-b9d6-71fcb2e7bf6d/KE-en-20210719-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: right;
+    color: white;
+    min-height: 100vh;
+    font-family: 'Roboto',sans-serif;
+    border-bottom: 8px solid #222;
+}
+
+.overlay-wrapper{
+    background: rgba(0,0,0,.6);
+    min-height: 100vh;
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    
+}
+
+#sign-in{
+    color: white;
+    text-decoration: none;
+    background-color: #e50914;
+    border-radius: 5px;
+    padding: 7px 17px;
+    margin: 0rem 0.5rem;
+}
+
+#language{
+    background:  rgba(0,0,0,0.5);
+    color: white;
+    border: 1px solid white;
+    padding: 1em;
+}
+
+nav a{
+    color: blue;
+    background-color: #e50914;
+    padding: 7px 17px;
+    text-decoration: none;
+
+}
+
+.hero-wrapper{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    min-height: 65vh;
+    padding-top: 5em;
+}
+
+.hero h1{
+    font-size: 3.125em;
+    font-weight: 700;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+
+
+.hero h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem auto;
+    font-size: 1.625em;
+    max-width: 640px;
+}
+
+.hero h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0rem 0rem 1rem 0rem;
+    
+}
+
+.email{
+    align-items: center;
+    display: flex;
+}
+
+.email-input{
+    height: 4rem;
+    width: 28rem;
+    padding: 1.0rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    text-align: start;
+}
+.submit-button{
+    background-color: #e50914;
+    font-size: 1.55rem;
+    color: white;
+    border: none;
+    height: 4rem;
+    width: 10rem;
+    margin-left: 4px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: #fd0310;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 3.125rem 5%;
+    border-bottom: 8px solid #222;
+}
+
+.card1 img{
+    width: 70%;
+}
+
+.text{
+    padding: 0rem 2rem;
+   
+}
+
+.text h1{
+    font-size: 3.525rem;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.text h2{
+    font-weight: 400;
+    font-size: 1.596rem;
+}
+
+.phone-img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.card2{
+    flex-direction: row-reverse;
+}
+.card3{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.card4{
+    flex-direction:row-reverse ;
+}
+
+.card4 img{
+    width: 100%;
+}
+
+.faq{
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    padding: 3rem 0rem;
+    text-align: center;
+    border-bottom: 8px solid #222;
+}
+
+.faq h1{
+    font-size: 2rem;
+    padding: 1.5rem 0rem;
+}
+
+.questionBx{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    margin-bottom: 1rem;
+}
+.question{
+    background-color: #303030;
+    color: white;
+    padding: 1.5rem 2rem;
+    text-align: left;
+    font-weight: 350;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.fa-plus{
+   font-size: 2rem;
+}
+
+.fa-plus.active{
+    transform: rotate(45deg);
+}
+
+.answer{
+    padding: 1.5rem 1.5rem;
+    font-size: 1.6rem;
+    background-color: #303030;
+    line-height: 1.7;
+    display: none;
+}
+
+.answer.active{
+    display: block;
+}
+
+
+.last-faq{
+    margin-bottom: 2.5rem;
+}
+.bottom-mail{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
+.bottom-mail-text{
+    padding-bottom: 2rem;
+}
+
+
+
+footer{
+    display: grid;
+    background-color: black;
+    padding: 70px 7%;
+    color: #303030;
+}
+
+.footer-wrapper{
+    text-align: left;
+}
+
+.links-wrapper ul{
+
+    display: grid;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+    font-size: 13px;
+    box-sizing: border-box;
+    
+}
+
+.link{
+    color: #757575;
+    display: block;
+    text-decoration: none;
+    padding: 0.4rem 0rem;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.links-wrapper ul{
+    list-style-type: none;
+}
+
+.footer-wrapper p{
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 768px){
+    .hero h1{
+        font-size: 2.75em;
+    } 
+
+    .hero h3{
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .email{
+       flex-direction: column;
+    }
+
+    .submit-button{
+        margin-top: 1rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .text h1{
+        font-size: 2.625rem;
+        font-weight: 700;
+    }
+
+    .email-input{
+        width: 90%;
+    }
+
+    .questionBx{
+        width: 95%;
+    }
+
+    .answer{
+        font-size: 1rem;
+    }
+
+    .question{
+        font-size: 0.95rem;
+    }
+ }
