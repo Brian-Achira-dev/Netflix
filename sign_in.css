@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/9dd90ee7-b861-4186-b9d6-71fcb2e7bf6d/KE-en-20210719-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.top-bar img{
+    width: 9rem;
+}
+
+.top-bar{
+    width: 100%;
+    padding: 2rem;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.4);
+    /*min-height: 100vh;*/
+}
+
+.form-wrapper{
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 35%;
+    min-height: 60vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem 3em;
+}
+
+.form-wrapper h1{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+#email, #password{
+    background-color: #333;
+    border-radius: 4px;
+    border: 0;
+    font-size: 1.1rem;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 16px 20px;
+    margin-bottom: 1em;
+    width: 100%;
+    outline: none;
+}
+
+#btn{
+    background-color: red;
+    cursor: pointer;
+    align-items: center;
+    border: none;
+    width: 100%;
+    padding: 16px 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+
+.small{
+    display: flex;
+    color: rgb(238, 237, 237);
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+#check{
+    display: block;
+    background-color: #333;
+    color: rgb(39, 37, 37);
+    padding: 1rem;
+}
+
+.checkbox p{
+    padding-left: 0.5rem;
+    display: block;
+    color:  #b3b3b3;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.small a{
+    color: rgb(92, 92, 92);
+}
+
+#facebook-opt{
+    color: rgb(92, 92, 92);
+    display: flex;
+    padding-top: 1em;
+    align-items: center;
+    font-size: 1.1rem;
+
+}
+
+.fa-facebook-square{
+    color: white;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+
+#sign-opt{
+    color: rgb(92, 92, 92);
+    padding: 1rem 0rem;
+    text-align: left;
+}
+
+#sign-opt a{
+    color: white;
+}
+
+#protect{
+    color: rgb(167, 165, 165);
+    text-align: left;
+    font-size: 15px;
+}
+
+#protect a{
+    color: blue;
+
+}
+
+footer{
+    background-color: rgba(0,0,0,0.6);
+    min-height: 30vh;
+    margin-top: 5em;
+    padding: 50px 5%;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.links a{
+    padding: 0.5em 0rem;
+}
+
+#language{
+    background:  rgba(0,0,0,0.5);
+    color: white;
+    border: 1px solid white;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 739px) {
+
+    body{
+        background: none;
+    }
+    .form-wrapper{
+        width: 100%;
+        background-color: #000;
+        margin: 0;
+        padding-top: 6em;
+    }
+
+    footer{
+        margin-top: 0.1rem;
+        background-color: #000;
+    }
+
+    .top-bar{
+        padding: 0;
+    }
+
+    .top-bar img{
+        position: absolute;
+        top: 1em;
+        left: 1.5em;
+    }
+    
+}
